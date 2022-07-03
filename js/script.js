@@ -1,15 +1,14 @@
-const URL =
-  "https://my-json-server.typicode.com/vitormalencar/flash-app/definitions";
+const id = Math.floor(Math.random() * 44);
 
-function fetchCards() {
+const URL = `https://my-json-server.typicode.com/vitormalencar/flash-app/definitions/${id}`;
+
+function fetchCard() {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => renderCard(data));
 }
 
-function renderCard(cards) {
-  const index = Math.floor(Math.random() * cards.length);
-  const card = cards[index];
+function renderCard(card) {
   const cardContainer = document.querySelector("#card-container");
 
   cardContainer.innerHTML = "";
@@ -29,4 +28,4 @@ function renderCard(cards) {
   cardContainer.appendChild(cardDiv);
 }
 
-window.addEventListener("load", fetchCards);
+window.addEventListener("load", fetchCard);

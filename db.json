@@ -1,22 +1,26 @@
 {
   "definitions": [
     {
+      "id": 1,
       "category": "html",
       "title": "Codepen",
       "description": "Ferramenta online para testar e apresentar trechos de código HTML, CSS e JavaScript criados pelo usuário."
     },
     {
+      "id": 2,
       "category": "html",
       "title": "Elemento HTML <head>",
       "description": "Providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos."
     },
     {
+      "id": 3,
       "category": "html",
       "title": "Elemento HTML <body>",
       "description": "Representa o conteúdo de um documento HTML. É permitido apenas um <body> por documento."
     },
 
     {
+      "id": 4,
       "category": "html",
       "title": "Atributo charset",
 
@@ -24,6 +28,7 @@
     },
 
     {
+      "id": 5,
       "category": "html",
       "title": "Elemento HTML <link>",
 
@@ -31,12 +36,14 @@
     },
 
     {
+      "id": 6,
       "category": "html",
       "title": "CSS Grid",
 
       "description": "É um sistema de estruturação de layout que o CSS fornece. Ele permite configurar layouts em duas dimensões (linhas e colunas). A junção de linhas e colunas formam uma grade, o que dá o nome a esse sistema (Grid)."
     },
     {
+      "id": 7,
       "category": "html",
       "title": "Link",
 
@@ -44,6 +51,7 @@
     },
 
     {
+      "id": 8,
       "category": "html",
       "title": "Links relativos",
 
@@ -51,12 +59,14 @@
     },
 
     {
+      "id": 9,
       "category": "html",
       "title": "Links absolutos",
       "description": "São links que apontam para um local definido por sua localização absoluta na web, incluindo protocolo e nome de domínio, exemplo: https://app.staart.com/"
     },
 
     {
+      "id": 10,
       "category": "html",
       "title": "Id",
 
@@ -64,6 +74,7 @@
     },
 
     {
+      "id": 11,
       "category": "html",
       "title": "Class",
 
@@ -71,6 +82,7 @@
     },
 
     {
+      "id": 12,
       "category": "html",
       "title": "Seletores",
 
@@ -78,18 +90,21 @@
     },
 
     {
+      "id": 13,
       "category": "html",
       "title": "Pseudo-classes",
 
       "description": "É uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, quando se quer adicionar uma customização para um botão somente quando o ponteiro do mouse passar por cima dele."
     },
     {
+      "id": 14,
       "category": "html",
       "title": "Background",
 
       "description": "A propriedade CSS background é usada para definir os valores de fundo individuais em um único lugar na folha de estilo."
     },
     {
+      "id": 15,
       "category": "html",
       "title": "Responsividade",
 
@@ -97,148 +112,177 @@
     },
 
     {
+      "id": 16,
       "category": "html",
       "title": "Visibilidade",
       "description": "A propriedade CSS de visibilidade pode mostrar ou ocultar um elemento sem afetar o layout de um documento. Ou seja, caso oculto, o elemento não aparecerá na página mas seu espaço continua sendo ocupado."
     },
     {
+      "id": 17,
       "category": "html",
       "title": "Google Fonts",
       "description": "Biblioteca com mais de 800 fontes livres licenciadas e um diretório web interativo para navegar na biblioteca."
     },
     {
+      "id": 18,
       "category": "html",
       "title": "Keyframes",
       "description": "Nos permitem indicar o estado inicial e final do estilo CSS em uma animação. Nós podemos, inclusive, indicar o estado do estilo CSS em nenhum ou vários pontos de uma animação entre o início e o fim dela."
     },
     {
+      "id": 19,
       "category": "javascript",
       "title": "O que são comentários?",
       "description": "Anotações que podem ser incluídas no código para descrever o que se quiser. Comentários não mudam o comportamento de um programa executado e servem somente para ajudar o programador a melhor organizar os seus códigos."
     },
     {
+      "id": 20,
       "category": "javascript",
       "title": "Full Stack",
       "description": "Profissional que tem um perfil mais amplo, podendo atuar tanto na construção de sites e sistemas web quanto na construção de sistemas que executem em servidores."
     },
 
     {
+      "id": 21,
       "category": "javascript",
       "title": "Fábrica de software",
       "description": "Empresa especializada em desenhar, desenvolver, integrar e sustentar sistemas e aplicações personalizados em escala para outras organizações."
     },
     {
+      "id": 22,
       "category": "javascript",
       "title": "Features",
       "description": "São funcionalidades ou recursos de produtos e plataformas digitais."
     },
     {
+      "id": 23,
       "category": "javascript",
       "title": "Pensamento Computacional",
       "description": "O processo de pensamento envolvido na formulação de um problema e na criação de sua solução, de forma que alguém consiga executar a mesma várias vezes."
     },
     {
+      "id": 24,
       "category": "javascript",
       "title": "Programa",
       "description": "Sequência de passos que um computador vai conseguir executar."
     },
     {
+      "id": 25,
       "category": "javascript",
       "title": "Framework",
       "description": "Um conjunto de pacotes com funcionalidades para serem usadas em um projeto. Também oferece uma estrutura a ser seguida para o desenvolvimento do projeto."
     },
     {
+      "id": 26,
       "category": "javascript",
       "title": "Documentação",
       "description": "Manual que dita a forma de uso de uma ferramenta ou linguagem de programação, com exemplos de uso e todas as funcionalidades disponíveis para aquele recurso."
     },
     {
+      "id": 27,
       "category": "javascript",
       "title": "Output",
       "description": "É a 'Saída do programa', onde será exibido o resultado da pós execução dos nossos programas."
     },
     {
+      "id": 28,
       "category": "javascript",
       "title": "Comentário",
       "description": "Anotações que podem ser incluídas no código para descrever o que se quiser., Comentários não mudam o comportamento de um programa executado e servem somente para ajudar o programador a melhor organizar os seus códigos."
     },
     {
+      "id": 29,
       "category": "javascript",
       "title": "Variável",
       "description": "Objeto capaz de guardar e representar um valor ou expressão em um programa."
     },
 
     {
+      "id": 30,
       "category": "javascript",
       "title": "Objeto",
       "description": "Utilizado para mapear objetos do mundo real e suas propriedades como nome, altura e idade no caso de uma pessoa, ou até mesmo detalhes do ambiente como temperatura, umidade, etc."
     },
     {
+      "id": 31,
       "category": "javascript",
       "title": "Arrays",
       "description": "Utilizado para criação de listas como lista de itens em um carrinho de compras, nomes de usuários aprovados em um teste, etc."
     },
     {
+      "id": 32,
       "category": "javascript",
       "title": "React",
       "description": "Biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web”."
     },
     {
+      "id": 33,
       "category": "javascript",
       "title": "Front End",
       "description": "Tudo o que você vê na sua tela ao acessar algum site é considerado Front End. Front End significa “o que está a frente”, portanto é o que pode ser visualizado pelo usuário ao visitar um site ou abrir um aplicativo."
     },
     {
+      "id": 34,
       "category": "javascript",
       "title": "Libs ou Pacotes",
       "description": "São códigos construídos para serem baixados e utilizados por qualquer pessoa que queria adicionar esse código pronto no seu projeto."
     },
     {
+      "id": 35,
       "category": "javascript",
       "title": "Frameworks",
       "description": "Ferramentas que fornecem códigos genéricos que podem ser usados para criar os seus projetos com uma estrutura definida."
     },
     {
+      "id": 36,
       "category": "javascript",
       "title": "Tags",
       "description": "Estruturas de linguagem de marcação contendo instruções, tendo uma marca de início e outra de fim para que o navegador possa carregar uma página."
     },
     {
+      "id": 37,
       "category": "javascript",
       "title": "Tag <head>",
       "description": "Quando elementos são inseridos nessa tag, eles não aparecerão na página do site, já que são utilizadas apenas para configurações."
     },
     {
+      "id": 38,
       "category": "javascript",
       "title": "Tag <body>",
       "description": "Aqui são inseridas todas as tags que formarão o corpo do seu site, como títulos, seções, imagens, vídeos, formulários, etc"
     },
     {
+      "id": 39,
       "category": "javascript",
       "title": "Tag <p>",
       "description": "Tag para inserir textos (parágrafos) que aparecerão na tela."
     },
     {
+      "id": 40,
       "category": "javascript",
       "title": "CSS",
       "description": "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web."
     },
     {
+      "id": 41,
       "category": "javascript",
       "title": "V8",
       "description": "V8 foi construído pelo Google. É um projeto de código aberto e escrito em C++. O objetivo era aumentar a performance de execução do JavaScript dentro de navegadores a fim de obter velocidade. Ele `traduz` código JavaScript em código de máquina ao invés de interpretar e por isso não produz qualquer código intermediário."
     },
     {
+      "id": 42,
       "category": "javascript",
       "title": "Netscape",
       "description": "Foi um navegador web proprietário lançado em dezembro de 1994 e foi o principal produto da Netscape Communications Corporation."
     },
     {
+      "id": 43,
       "category": "javascript",
       "title": "ECMA",
       "description": "Associação fundada em 1961 dedicada à padronização de sistemas de informação Desde 1994 passou a se denominar ECMA International para refletir suas atividades internacionais."
     },
     {
+      "id": 44,
       "category": "javascript",
       "title": "Node.js",
       "description": "Software de código aberto, multiplataforma, baseado no motor de execução V8 e que permite a execução de códigos JavaScript fora de um navegador."
