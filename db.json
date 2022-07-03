@@ -202,36 +202,6 @@
       "category": "javascript",
       "title": "Objeto",
       "description": "Utilizado para mapear objetos do mundo real e suas propriedades como nome, altura e idade no caso de uma pessoa, ou até mesmo detalhes do ambiente como temperatura, umidade, etc."
-    },
-    {
-      "id": 31,
-      "category": "javascript",
-      "title": "Arrays",
-      "description": "Utilizado para criação de listas como lista de itens em um carrinho de compras, nomes de usuários aprovados em um teste, etc."
-    },
-    {
-      "id": 32,
-      "category": "javascript",
-      "title": "React",
-      "description": "Biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web”."
-    },
-    {
-      "id": 33,
-      "category": "javascript",
-      "title": "Front End",
-      "description": "Tudo o que você vê na sua tela ao acessar algum site é considerado Front End. Front End significa “o que está a frente”, portanto é o que pode ser visualizado pelo usuário ao visitar um site ou abrir um aplicativo."
-    },
-    {
-      "id": 34,
-      "category": "javascript",
-      "title": "Libs ou Pacotes",
-      "description": "São códigos construídos para serem baixados e utilizados por qualquer pessoa que queria adicionar esse código pronto no seu projeto."
-    },
-    {
-      "id": 35,
-      "category": "javascript",
-      "title": "Frameworks",
-      "description": "Ferramentas que fornecem códigos genéricos que podem ser usados para criar os seus projetos com uma estrutura definida."
     }
   ]
 }
