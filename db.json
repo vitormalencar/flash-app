@@ -15,13 +15,13 @@
     {
       "id": 2,
       "category": "html",
-      "title": "Elemento HTML <head>",
+      "title": "Elemento HTML head",
       "description": "Providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos."
     },
     {
       "id": 3,
       "category": "html",
-      "title": "Elemento HTML <body>",
+      "title": "Elemento HTML body",
       "description": "Representa o conteúdo de um documento HTML. É permitido apenas um <body> por documento."
     },
 
@@ -29,15 +29,13 @@
       "id": 4,
       "category": "html",
       "title": "Atributo charset",
-
       "description": "Serve para indicar o formato de codificação de caracteres utilizado no documento."
     },
 
     {
       "id": 5,
       "category": "html",
-      "title": "Elemento HTML <link>",
-
+      "title": "Elemento HTML link",
       "description": "Especifica as relações entre o documento atual e um recurso externo. Este elemento é mais usado para vincular as folhas de estilo."
     },
 
@@ -45,14 +43,12 @@
       "id": 6,
       "category": "html",
       "title": "CSS Grid",
-
       "description": "É um sistema de estruturação de layout que o CSS fornece. Ele permite configurar layouts em duas dimensões (linhas e colunas). A junção de linhas e colunas formam uma grade, o que dá o nome a esse sistema (Grid)."
     },
     {
       "id": 7,
       "category": "html",
       "title": "Link",
-
       "description": "Uma referência dentro de um documento em HTML a outras partes desse documento ou a outro documento."
     },
 
@@ -60,7 +56,6 @@
       "id": 8,
       "category": "html",
       "title": "Links relativos",
-
       "description": "São links que levam para qualquer conteúdo que está na mesma pasta do projeto, como um arquivo HTML, imagem, vídeo, etc..."
     },
 
@@ -75,7 +70,6 @@
       "id": 10,
       "category": "html",
       "title": "Id",
-
       "description": "O atributo global id define um identificador exclusivo que deve ser único por todo o documento. Seu objetivo é identificar o elemento ao navegar por âncoras (usando um identificador de fragmento), quando estilizar com CSS ou utilizando scripts."
     },
 
@@ -83,7 +77,6 @@
       "id": 11,
       "category": "html",
       "title": "Class",
-
       "description": "O atributo class permite o CSS e o JavaScript selecionar e acessar elementos específicos através dos seletores de classe com CSS ou funções com o JavaScript."
     },
 
@@ -91,7 +84,6 @@
       "id": 12,
       "category": "html",
       "title": "Seletores",
-
       "description": "É uma funcionalidade do CSS que permite selecionarmos qual elemento do HTML queremos customizar."
     },
 
@@ -99,7 +91,6 @@
       "id": 13,
       "category": "html",
       "title": "Pseudo-classes",
-
       "description": "É uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, quando se quer adicionar uma customização para um botão somente quando o ponteiro do mouse passar por cima dele."
     },
     {
