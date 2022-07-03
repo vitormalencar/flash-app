@@ -1,10 +1,16 @@
 {
   "terms": [
     {
-      "id": 1,
+      "id": 0,
       "category": "html",
       "title": "Codepen",
       "description": "Ferramenta online para testar e apresentar trechos de código HTML, CSS e JavaScript criados pelo usuário."
+    },
+    {
+      "id": 1,
+      "category": "javascript",
+      "title": "Node.js",
+      "description": "Software de código aberto, multiplataforma, baseado no motor de execução V8 e que permite a execução de códigos JavaScript fora de um navegador."
     },
     {
       "id": 2,
