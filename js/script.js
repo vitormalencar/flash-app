@@ -1,5 +1,4 @@
-const id = Math.floor(Math.random() * 44);
-
+const id = Math.floor(Math.random() * 29);
 const URL = `https://my-json-server.typicode.com/vitormalencar/flash-app/definitions/${id}`;
 
 function fetchCard() {
