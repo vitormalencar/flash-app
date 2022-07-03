@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flash app ⚡️</title>
-    <!-- fav -->
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width"
+    />
+    <title>Flash app</title>
     <link rel="icon" href="images/favicon.ico" />
-    <!-- android meta -->
     <meta name="theme-color" content="#000" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
@@ -24,27 +25,23 @@
   <body>
     <div class="container-wrapper">
       <div class="container">
-        <div class="hero">
-          <div class="hero-logo">
-            <h1>⚡️ Flash</h1>
-          </div>
-          <div class="hero-description">
-            <h2>A maneira mais fácil de aprender o dicionário de tecnologia</h2>
+        <div>
+          <div class="hero">
+            <h1 class="hero-logo">Flash</h1>
+            <h2 class="hero-title">
+              A maneira mais fácil de aprender o dicionário de tecnologia
+            </h2>
             <p>
-              aprenda mais rapidamente sobre o que você procura e encontre o que
-              você precisa. nos vamos ajudar a encontrar o que você precisa.
-              nunca mais estude sozinho e nunca mais perca tempo com o que você
-              precisa.
+              Nunca mais estude sozinho. Use o Flash para aprender o dicionário
+              de tecnologia de forma rápida e eficaz, solidifique o seu
+              conhecimento e aproveite para se divertir.
             </p>
+            <button onclick="fetchCards()" class="button">Busca Flash</button>
           </div>
-          <button onclick="getCards()" class="button">Busca Flash</button>
         </div>
       </div>
-      <div class="container">
-        <div class="cards"></div>
-      </div>
+      <div id="card-container" class="container"></div>
     </div>
   </body>
-  <!-- script -->
   <script src="js/script.js"></script>
 </html>
