@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  background-color: #000;
+}
+
+.container-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  padding: 0 4rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.hero {
+  padding: 4rem;
+}
+
+.hero-logo {
+  display: flex;
+  align-items: center;
+}
+.hero-logo h1 {
+  font-size: 6rem;
+  line-height: 1;
+}
+.hero-description {
+  margin-top: 3rem;
+}
+.hero-description h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.hero-description p {
+  margin-top: 1rem;
+}
+
+.button {
+  width: 100%;
+  height: 6rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 2.5rem;
+}
+.card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.card-image {
+  width: 100%;
+  height: 25rem;
+  background-image: linear-gradient(180deg, #4776e6 0%, #8e54e9 100%);
+}
+.card-wrapper {
+  padding: 3rem 1.5rem;
+  color: #000;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .container-wrapper {
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .cards {
+    padding: 1.6rem;
+  }
+}

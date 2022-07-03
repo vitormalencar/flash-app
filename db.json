@@ -1,0 +1,76 @@
+{
+  "definitions": [
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "O que são comentários?",
+      "description": "Anotações que podem ser incluídas no código para descrever o que se quiser. Comentários não mudam o comportamento de um programa executado e servem somente para ajudar o programador a melhor organizar os seus códigos."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Full Stack",
+      "description": "Profissional que tem um perfil mais amplo, podendo atuar tanto na construção de sites e sistemas web quanto na construção de sistemas que executem em servidores."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Full Stack",
+      "description": "Profissional que tem um perfil mais amplo, podendo atuar tanto na construção de sites e sistemas web quanto na construção de sistemas que executem em servidores."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Fábrica de software",
+      "description": "Empresa especializada em desenhar, desenvolver, integrar e sustentar sistemas e aplicações personalizados em escala para outras organizações."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Features",
+      "description": "São funcionalidades ou recursos de produtos e plataformas digitais."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Pensamento Computacional",
+      "description": "O processo de pensamento envolvido na formulação de um problema e na criação de sua solução, de forma que alguém consiga executar a mesma várias vezes."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Programa",
+      "description": "Sequência de passos que um computador vai conseguir executar."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Framework",
+      "description": "Um conjunto de pacotes com funcionalidades para serem usadas em um projeto. Também oferece uma estrutura a ser seguida para o desenvolvimento do projeto."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Documentação",
+      "description": "Manual que dita a forma de uso de uma ferramenta ou linguagem de programação, com exemplos de uso e todas as funcionalidades disponíveis para aquele recurso."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Output",
+      "description": "É a 'Saída do programa', onde será exibido o resultado da pós execução dos nossos programas."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Comentário",
+      "description": "Anotações que podem ser incluídas no código para descrever o que se quiser., Comentários não mudam o comportamento de um programa executado e servem somente para ajudar o programador a melhor organizar os seus códigos."
+    },
+    {
+      "title": "Variável",
+      "description": "Objeto capaz de guardar e representar um valor ou expressão em um programa.",
+      "caregory": "javascript",
+      "image": "https://gradientjoy.com/200"
+    },
+
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Objeto",
+      "description": "Utilizado para mapear objetos do mundo real e suas propriedades como nome, altura e idade no caso de uma pessoa, ou até mesmo detalhes do ambiente como temperatura, umidade, etc."
+    },
+    {
+      "image": "https://gradientjoy.com/200",
+      "title": "Arrays",
+      "description": "Utilizado para criação de listas como lista de itens em um carrinho de compras, nomes de usuários aprovados em um teste, etc."
+    }
+  ]
+}
