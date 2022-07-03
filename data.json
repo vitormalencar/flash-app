@@ -1,0 +1,44 @@
+{
+  "definitions": [
+    {
+      "id": 1,
+      "title": "O que são comentários?",
+      "description": "Anotações que podem ser incluídas no código para descrever o que se quiser. Comentários não mudam o comportamento de um programa executado e servem somente para ajudar o programador a melhor organizar os seus códigos."
+    },
+    {
+      "id": 2,
+      "title": "Full Stack",
+      "description": "Profissional que tem um perfil mais amplo, podendo atuar tanto na construção de sites e sistemas web quanto na construção de sistemas que executem em servidores."
+    },
+    {
+      "id": 3,
+      "title": "Full Stack",
+      "description": "Profissional que tem um perfil mais amplo, podendo atuar tanto na construção de sites e sistemas web quanto na construção de sistemas que executem em servidores."
+    },
+    {
+      "id": 4,
+      "title": "Fábrica de software",
+      "description": "Empresa especializada em desenhar, desenvolver, integrar e sustentar sistemas e aplicações personalizados em escala para outras organizações."
+    },
+    {
+      "id": 5,
+      "title": "Features",
+      "description": "São funcionalidades ou recursos de produtos e plataformas digitais."
+    },
+    {
+      "id": 6,
+      "title": "Pensamento Computacional",
+      "description": "O processo de pensamento envolvido na formulação de um problema e na criação de sua solução, de forma que alguém consiga executar a mesma várias vezes."
+    },
+    {
+      "id": 7,
+      "title": "Programa",
+      "description": "Sequência de passos que um computador vai conseguir executar."
+    },
+    {
+      "id": 8,
+      "title": "Framework",
+      "description": "Um conjunto de pacotes com funcionalidades para serem usadas em um projeto. Também oferece uma estrutura a ser seguida para o desenvolvimento do projeto."
+    }
+  ]
+}

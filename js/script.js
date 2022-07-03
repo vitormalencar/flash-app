@@ -3,7 +3,8 @@ function renderCard({ title, description, image }) {
   const cardDiv = document.createElement("div");
   cardDiv.classList.add("card", "animate__animated", "animate__backInRight");
   cardDiv.innerHTML = `
-    <div class="card-image"></div>
+    <div class="card-image">
+    </div>
     <div class="card-wrapper">
       <div class="card-title">${title}</div>
       <p class="card-description">${description}</p>
@@ -12,7 +13,9 @@ function renderCard({ title, description, image }) {
   return cardDiv;
 }
 function getCards() {
-  fetch("http://localhost:3001/definitions")
+  fetch(
+    "https://my-json-server.typicode.com/vitormalencar/flash-app/definitions"
+  )
     .then((response) => response.json())
     .then((cards) => {
       const index = Math.floor(Math.random() * cards.length);
