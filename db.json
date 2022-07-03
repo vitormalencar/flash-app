@@ -262,30 +262,6 @@
       "category": "javascript",
       "title": "CSS",
       "description": "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web."
-    },
-    {
-      "id": 41,
-      "category": "javascript",
-      "title": "V8",
-      "description": "V8 foi construído pelo Google. É um projeto de código aberto e escrito em C++. O objetivo era aumentar a performance de execução do JavaScript dentro de navegadores a fim de obter velocidade. Ele `traduz` código JavaScript em código de máquina ao invés de interpretar e por isso não produz qualquer código intermediário."
-    },
-    {
-      "id": 42,
-      "category": "javascript",
-      "title": "Netscape",
-      "description": "Foi um navegador web proprietário lançado em dezembro de 1994 e foi o principal produto da Netscape Communications Corporation."
-    },
-    {
-      "id": 43,
-      "category": "javascript",
-      "title": "ECMA",
-      "description": "Associação fundada em 1961 dedicada à padronização de sistemas de informação Desde 1994 passou a se denominar ECMA International para refletir suas atividades internacionais."
-    },
-    {
-      "id": 44,
-      "category": "javascript",
-      "title": "Node.js",
-      "description": "Software de código aberto, multiplataforma, baseado no motor de execução V8 e que permite a execução de códigos JavaScript fora de um navegador."
     }
   ]
 }
