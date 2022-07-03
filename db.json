@@ -195,13 +195,6 @@
       "category": "javascript",
       "title": "Variável",
       "description": "Objeto capaz de guardar e representar um valor ou expressão em um programa."
-    },
-
-    {
-      "id": 30,
-      "category": "javascript",
-      "title": "Objeto",
-      "description": "Utilizado para mapear objetos do mundo real e suas propriedades como nome, altura e idade no caso de uma pessoa, ou até mesmo detalhes do ambiente como temperatura, umidade, etc."
     }
   ]
 }
