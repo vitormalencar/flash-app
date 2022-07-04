@@ -1,10 +1,18 @@
 function fetchCard() {
-  const id = Math.floor(Math.random() * 29);
-  const URL = `https://my-json-server.typicode.com/vitormalencar/flash-app/terms/${id}`;
-
-  fetch(URL)
+  fetch(
+    `https://my-json-server.typicode.com/vitormalencar/flash-app/terms/${randomId()}`
+  )
     .then((response) => response.json())
     .then((data) => renderCard(data));
+}
+
+function randomId() {
+  return Math.floor(Math.random() * 29);
+}
+
+function toggleBlur() {
+  const cardContent = document.querySelector(".card-content");
+  cardContent.classList.toggle("blur");
 }
 
 function renderCard(card) {
@@ -17,9 +25,10 @@ function renderCard(card) {
   cardDiv.classList.add("card", "animate__animated", "animate__backInRight");
 
   cardDiv.innerHTML = `
-    <div class="card-image"></div>
-    <div class="card-content">
-      <div class="card-title">${card.title}</div>
+    <div class="card-header content-center">
+      <div class="card-title">o que é "${card.title}" ?</div>
+    </div>
+    <div class="card-content blur">
       <p class="card-description">${card.description}</p>
     </div>
   `;
