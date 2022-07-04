@@ -7,12 +7,14 @@
       name="viewport"
       content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width"
     />
-    <title>Flash app</title>
-    <link rel="icon" href="images/favicon.ico" />
     <meta name="theme-color" content="#000" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
+    <title>Flash app</title>
+
+    <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
       rel="stylesheet"
@@ -24,23 +26,25 @@
   </head>
   <body>
     <div class="container-wrapper">
-      <div class="container">
-        <div>
-          <div class="hero">
-            <h1 class="hero-logo">⚡️ Flash</h1>
-            <h2 class="hero-title">
-              A maneira mais fácil de aprender o dicionário de tecnologia
-            </h2>
-            <p>
-              Nunca mais estude sozinho. Use o Flash para aprender o dicionário
-              de tecnologia de forma rápida e eficaz, solidifique o seu
-              conhecimento e aproveite para se divertir.
-            </p>
-            <button onclick="fetchCard()" class="button">Busca Flash</button>
-          </div>
+      <div class="container content-center">
+        <div class="hero">
+          <h1 class="hero-logo">⚡️ Flash</h1>
+          <h2 class="hero-title">
+            A maneira mais fácil de aprender o dicionário de tecnologia
+          </h2>
+          <p class="hero-description">
+            Nunca mais estude sozinho. Use o Flash para aprender o dicionário de
+            tecnologia de forma rápida e eficaz, solidifique o seu conhecimento
+            e aproveite para se divertir.
+          </p>
+          <button onclick="fetchCard()" class="button">Busca Flash</button>
         </div>
       </div>
-      <div id="card-container" class="container"></div>
+      <div
+        id="card-container"
+        class="container content-center"
+        onclick="toggleBlur()"
+      ></div>
     </div>
   </body>
   <script src="js/script.js"></script>
