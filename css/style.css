@@ -1,15 +1,12 @@
 html {
   font-size: 62.5%;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  height: 100%;
-  background-color: #000;
   color: #fff;
-  font-family: Poppins, sans-serif;
   font-size: 1.6rem;
+  background-color: #000;
+  font-family: Poppins, sans-serif;
 }
 
 .container-wrapper {
@@ -17,10 +14,13 @@ body {
   height: 100vh;
 }
 
-.container {
-  align-items: center;
+.content-center {
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.container {
   width: 50%;
 }
 
@@ -38,7 +38,6 @@ body {
 
 .hero-title {
   font-size: 3rem;
-  margin-bottom: 2rem;
 }
 
 .button,
@@ -47,23 +46,22 @@ body {
 }
 
 .button {
-  cursor: pointer;
-  font-size: 1.6rem;
-  font-weight: 700;
-  height: 6rem;
-  margin-top: 2.5rem;
   width: 100%;
+  height: 6rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 .card {
-  background-color: #fff;
   max-width: 60rem;
   overflow: hidden;
+  background-color: #fff;
 }
 
-.card-image {
-  background-image: linear-gradient(120deg, #f6d365, #fda085);
+.card-header {
   height: 25rem;
+  background-image: linear-gradient(120deg, #8e2de2, #4a00e0);
 }
 
 .card-content {
@@ -74,7 +72,10 @@ body {
 .card-title {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1.2rem;
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 @media (max-width: 1024px) {
@@ -83,12 +84,13 @@ body {
   }
   .container-wrapper {
     flex-direction: column;
+    margin-bottom: 6rem;
   }
   .container {
-    padding: 0;
     width: 100%;
   }
   .card {
     margin: 2rem;
+    max-width: 100%;
   }
 }
