@@ -28,23 +28,23 @@
     <div class="container-wrapper">
       <div class="container content-center">
         <div class="hero">
-          <h1 class="hero-logo">⚡️ Flash</h1>
+          <h1 class="hero-logo">⚡️ Flash memo</h1>
           <h2 class="hero-title">
             A maneira mais fácil de aprender o dicionário de tecnologia
           </h2>
           <p class="hero-description">
-            Nunca mais estude sozinho. Use o Flash para aprender o dicionário de
-            tecnologia de forma rápida e eficaz, solidifique o seu conhecimento
-            e aproveite para se divertir.
+            Aprenda de forma simples e divertida o vocabulario tecnico que você
+            vai utilizar no seu dia a dia como dev.
           </p>
-          <button onclick="fetchCard()" class="button">Busca Flash</button>
+          <div class="buttons">
+            <button onclick="fetchCard()" class="button">Proximo Termo</button>
+            <button onclick="toggleBlur()" class="button">
+              Revelar resposta
+            </button>
+          </div>
         </div>
       </div>
-      <div
-        id="card-container"
-        class="container content-center"
-        onclick="toggleBlur()"
-      ></div>
+      <div id="card-container" class="container content-center"></div>
     </div>
   </body>
   <script src="js/script.js"></script>

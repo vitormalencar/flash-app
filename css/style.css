@@ -67,6 +67,7 @@ body {
 .card-content {
   color: #000;
   padding: 3rem 1.5rem;
+  min-height: 14rem;
 }
 
 .card-title {
@@ -78,19 +79,23 @@ body {
   filter: blur(5px);
 }
 
+.buttons {
+  gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 1024px) {
   .hero {
     padding: 2rem;
   }
   .container-wrapper {
     flex-direction: column;
-    margin-bottom: 6rem;
   }
   .container {
     width: 100%;
   }
   .card {
     margin: 2rem;
-    max-width: 100%;
   }
 }
